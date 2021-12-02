@@ -1,0 +1,22 @@
+{
+  "name": "tokyoprefunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "document":"npx solidity-docgen --solc-module solc-0.8.2 -i contracts -o documentation"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openzeppelin-solidity": "^4.3.2"
+  },
+  "devDependencies": {
+    "solc-0.8": "npm:solc@^0.8.9",
+    "solc-0.8.2": "npm:solc@^0.8.9"
+  }
+}
